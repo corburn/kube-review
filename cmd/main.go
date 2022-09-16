@@ -3,7 +3,7 @@ package cmd
 import (
 	"fmt"
 	"io"
-	"kube-review/pkg/admission"
+	"github.com/corburn/kube-review/pkg/admission"
 	"log"
 	"os"
 

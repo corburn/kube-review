@@ -1,6 +1,6 @@
 VERSION := "v0.2.1"
 
-LDFLAGS := "-X 'kube-review/cmd.version=$(VERSION)'"
+LDFLAGS := "-X 'github.com/corburn/kube-review/cmd.version=$(VERSION)'"
 
 clean:
 	rm -rf _release

@@ -1,4 +1,4 @@
-module kube-review
+module github.com/corburn/kube-review
 
 go 1.18
 
